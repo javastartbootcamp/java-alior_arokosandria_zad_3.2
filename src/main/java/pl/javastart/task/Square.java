@@ -1,9 +1,13 @@
 package pl.javastart.task;
 
 public class Square {
-    double a;
+    private double a;
 
     public Square(double a) {
         this.a = a;
+    }
+
+    public double squareArea() {
+        return a * a;
     }
 }
